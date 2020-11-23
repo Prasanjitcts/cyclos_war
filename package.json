@@ -30,7 +30,7 @@
     "pay:analyze": "npm run pay:build -- --stats-json && webpack-bundle-analyzer --port 9201 dist/pay/stats.json",
     "pay:lint": "ng --project pay lint"
   },
-  "private": true,
+  
   "dependencies": {
     "@angular/animations": "^10.2.0",
     "@angular/cdk": "^10.2.5",
