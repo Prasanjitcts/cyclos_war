@@ -22,6 +22,6 @@ steps:
     workingFile: './.npmrc'
 - script: 
     npm install -g ng-openapi-gen
-    npm start
     npm run build
+    npm test
   displayName: 'npm install and build'
