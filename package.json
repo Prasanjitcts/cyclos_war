@@ -40,7 +40,7 @@
     "@angular/forms": "^10.2.0",
     "@angular/platform-browser": "^10.2.0",
     "@angular/platform-browser-dynamic": "^10.2.0",
-    "@angular/router": "^10.2.0",
+    
     "@googlemaps/loader": "^0.0.9",
     "@types/autosize": "^3.0.7",
     "@types/chart.js": "^2.9.26",
