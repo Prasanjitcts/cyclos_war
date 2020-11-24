@@ -21,6 +21,6 @@ steps:
   inputs:
     workingFile: './.npmrc'
 - script: 
-    npm cache clean 
+    npm start
     npm run build
   displayName: 'npm install and build'
