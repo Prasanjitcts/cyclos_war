@@ -21,6 +21,5 @@ steps:
   inputs:
     workingFile: './.npmrc'
 - script: 
-    npm install
     npm run build
   displayName: 'npm install and build'
