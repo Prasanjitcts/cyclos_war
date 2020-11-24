@@ -6,6 +6,9 @@
 trigger:
 - master
 
+- task: npmAuthenticate@0
+  inputs:
+    workingFile: './.npmrc'
 pool:
   vmImage: 'ubuntu-latest'
 
