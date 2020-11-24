@@ -72,6 +72,7 @@
     "rxjs": "^6.6.3",
     "tslib": "^2.0.3",
     "zone.js": "~0.10.2"
+    
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1000.8",
@@ -80,6 +81,7 @@
     "@angular/language-service": "^10.2.0",
     "@mdi/js": "^5.7.55",
     "@types/node": "^12.19.0",
+    "@googlemaps/loader":"^0.0.9",
     "codelyzer": "^6.0.1",
     "bootstrap-icons": "^1.1.0",
     "ng-openapi-gen": "^0.12.1",
