@@ -20,7 +20,7 @@ steps:
 - task: npmAuthenticate@0
   inputs:
     workingFile: './.npmrc'
-- script: 
+- script: |
     npm install -g ng-openapi-gen
     npm run build
     npm test
