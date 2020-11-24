@@ -92,6 +92,7 @@
     "typescript": "3.9.7",
     "webpack-bundle-analyzer": "^3.9.0",
     "xmldom": "^0.1.31",
-    "npm-pack-all":"latest"
+    "npm-pack-all":"latest",
+    "release-it": "*"
   }
 }
