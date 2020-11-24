@@ -22,7 +22,7 @@ steps:
     workingFile: './.npmrc'
 - script: |
     npm install -g ng-openapi-gen
-    npm install npm-pack-all
+    npm install npm-pack
     npm run build
-    npm-pack-all
+    npm pack
   displayName: 'npm install and build'
