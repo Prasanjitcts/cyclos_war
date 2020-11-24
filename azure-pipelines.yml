@@ -6,12 +6,14 @@
 trigger:
 - master
 
-- task: npmAuthenticate@0
-  inputs:
-    workingFile: './.npmrc'
 pool:
   vmImage: 'ubuntu-latest'
 
+
+- task: npmAuthenticate@0
+  inputs:
+    workingFile: './.npmrc'
+    
 steps:
 - task: NodeTool@0
   inputs:
