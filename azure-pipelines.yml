@@ -26,7 +26,7 @@ steps:
     npm install --save-dev release-it
     npm run build
     npm pack
-    npm run release
+    
   displayName: 'npm install and build'
 - script: |
     npm pack
